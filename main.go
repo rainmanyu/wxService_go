@@ -9,5 +9,5 @@ import (
 func main() {
 	http.HandleFunc("/api/rotime", service.TimeHandler)
 
-	log.Fatal(http.ListenAndServe(":8851", nil))
+	log.Fatal(http.ListenAndServe(":80", nil))
 }
